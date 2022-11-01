@@ -48,7 +48,7 @@ jobs:
             release: 9-stream
 
     steps:
-    - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+    - uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
     - uses: systemd/mkosi@0dd39c20a4b3a2fab6efdc54da92bffad7c7b7ca
 
     - name: Install
